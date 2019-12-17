@@ -1,0 +1,49 @@
+@import"./variables";
+@import"./bloger";
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+}
+
+.header {
+    height: 50px;
+    background: $menuColor;
+    padding: 0 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+
+
+.footer {
+    height: 50vh;
+    background-color: $menuColor;
+}
+
+
+.face{
+    background: #305097;
+}
+.twi{
+    background: #00aced;
+}
+.goo{
+    background: #db4a39;
+}
+
+@media screen and (max-width:767px) {
+
+}

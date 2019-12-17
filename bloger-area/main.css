@@ -1,0 +1,268 @@
+.about-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+.about-area img {
+  width: 45%;
+  height: auto;
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text p {
+  color: #686767;
+  font-size: 18px;
+}
+
+.profile {
+  margin-bottom: 200px;
+}
+
+.profile h3 {
+  padding: 3rem 0 0 0;
+  margin: 0px;
+  text-align: center;
+}
+
+.profile-card {
+  background: #f0f0f0;
+  width: 300px;
+  margin: 5px;
+}
+
+.profile-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-text dt {
+  font-size: 22px;
+  margin: 20px 10px 10px;
+  padding: 10px 0;
+  border-bottom: solid 1px #686767;
+}
+
+.profile-text dd {
+  margin: 10px;
+  font-size: 14px;
+  color: #686767;
+}
+
+.profile-mask {
+  background: url(./img/alexandre-chambon-zxmSX2-GQBc-unsplash.jpg);
+  height: 160px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-mask2 {
+  background: url(./img/alexander-popov-DPspiXW2zWg-unsplash.jpg);
+  height: 160px;
+  background-size: cover;
+}
+
+.profile-mask3 {
+  background: url(./img/roger-harris-u_o0p-wxb8I-unsplash.jpg);
+  height: 160px;
+  background-size: cover;
+}
+
+.picter-img {
+  background: #FC354C;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left bottom, left top, from(#0ABFBC), to(#FC354C));
+  background: linear-gradient(to top, #0ABFBC, #FC354C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.4;
+  height: 160px;
+}
+
+.profile-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.profile-img {
+  position: relative;
+  z-index: 1;
+}
+
+.about-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #0ABFBC;
+  border: solid #2D2524 3px;
+}
+
+.about-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sns-icon-erea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0 20px;
+}
+
+.sns-icon {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.sns-icon i {
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.read-blog-btn {
+  width: 100px;
+  margin: 20px auto 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 4px 10px 5px 10px;
+  border: 0;
+  background: #7206F7;
+}
+
+.read-blog-btn a {
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .about-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1.5rem 0;
+  }
+  .about-area img {
+    width: 100%;
+  }
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .about-text p {
+    font-size: 14px;
+  }
+  .profile-area {
+    display: block;
+  }
+  .profile-card {
+    margin: 20px auto 50px;
+  }
+  .profile h3 {
+    padding: 20px;
+  }
+  .about-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profile-card {
+    width: 90%;
+  }
+  .profile-text {
+    width: 90%;
+  }
+  .sns-icon-erea {
+    padding: 1rem 1rem 2rem;
+  }
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+}
+
+.header {
+  height: 50px;
+  background: #2D2524;
+  padding: 0 20px;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
+.footer {
+  height: 50vh;
+  background-color: #2D2524;
+}
+
+.face {
+  background: #305097;
+}
+
+.twi {
+  background: #00aced;
+}
+
+.goo {
+  background: #db4a39;
+}
+/*# sourceMappingURL=main.css.map */
