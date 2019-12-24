@@ -1,0 +1,72 @@
+@import"./about";
+@import"./variables";
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    
+}
+
+.header {
+    height: 50px;
+    background: $menuColor;
+    padding: 0 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+
+.content {
+    height: 160vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+
+.footer {
+    height: 200px;
+    background-color: $menuColor;
+}
+.section-about{
+      .logo{
+        margin:  0;
+    }
+      h3 {
+        color: #232323;
+        font-size: 33px;
+        margin-bottom: 2rem;
+      }
+
+}
+
+
+.face{
+    background: #305097;
+}
+.twi{
+    background: #00aced;
+}
+.goo{
+    background: #db4a39;
+}
+
+@media screen and (max-width:767px) {
+.section-about {
+    h2 {
+        font-size: 26px;
+        margin: 2rem 0 ;
+    }
+    h3{
+        margin: 20px 0;
+        font-size: 22px;
+    }
+   
+}
+}
